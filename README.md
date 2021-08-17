@@ -5,6 +5,6 @@
     git push -f <remote> <branch> (ie. git push -f origin main)
     
 -   HEAD1 is the ID of the latest top-level commit, you can change it to HEAD2, HEAD3, etc depending which commit you want to rollback to
--   this command makes the main/master/header branch rollback to the specific commit (HEAD1, HEAD2, etc.), and DELETES all commits UP
+-   this command makes the main/master/header branch rollback to the specific commit (HEAD1, HEAD2, etc.), and DELETES all commits UP. No history or trace of this action will appear on the GitHub remote repository. This is good if you accidently push a commit you did not intend.
 -   recommended: test on a sandbox repo, before attempting on production
 
